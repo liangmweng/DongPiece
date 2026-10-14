@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'dongpiece';
+  src: url(OnePiece-zAqL.ttf) format('truetype');
+}
+
+body {
+  background-color: #f6e3ba;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  font-family: 'dongpiece', sans-serif;
+}
+
+#dongPiece {
+  display: block;
+  text-align: center;
+  font-size: 130px;
+}
+
+#ui {
+  max-width: 800px;
+  min-width: 300px;
+  min-width: 225px;
+  background-color: #412a1e;
+  color: #fefefe;
+  margin: 0 auto;
+  border-color: #f8de3c;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#stats p, #opponentStats p{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+#commands {
+  display: flex;
+  gap: 6px;
+  border-color: #f8de3c;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+}
+
+
+#inventory {
+  border-color: #f8de3c;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  display: none;
+}
+
+#opponentStats {
+  border-color: #f8de3c;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  background-color: rgb(112, 0, 0);
+  display: none;
+}
+
+#commands button {
+  font-size: 18px;
+}
+
+#stats, #commands, #chatBox {
+  padding: 10px;
+}
+
+#button4, #itemsList, #button5 {
+  display: none;
+}
+
+#chatBox {
+  font-size: 18px;
+  text-align: center;
+}
+
+#chatbox p {
+  display: block;
+}
+
+#opponentImage {
+  display: none;
+  justify-content: center;
+}
