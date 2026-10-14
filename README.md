@@ -2,7 +2,9 @@
 
 A One Piece inspired browser-based text RPG game built with JavaScript, HTML, and CSS.
 
-##Features
+**Play it here:** https://liangmweng.github.io/DongPiece/
+
+## Features
 - Progressive Storyline
 - Turn-based combat with randomized damage
 - Scaling enemy difficulty and a leveling system that increases player stats
